@@ -3,7 +3,7 @@ def roll_call_dwarves# code an argument here
 end
 
 def summon_captain_planet(array)
-  array.map! {|name| name.capitalize}
+  array.map! {|name| name.capitalize } 
   #i = 0
   #array_new = []
   #while i < array.length
