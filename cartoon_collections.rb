@@ -3,7 +3,8 @@ def roll_call_dwarves# code an argument here
 end
 
 def summon_captain_planet(array)
-   array.map! do |name|
+  new_array = []
+  new_array = array.map! do |name|
      name.capitalize
    #array.split("! ")
   end
