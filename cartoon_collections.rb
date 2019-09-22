@@ -2,14 +2,11 @@ def roll_call_dwarves# code an argument here
   # Your code here
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
-  
-  def my_all?(collection)
+def summon_captain_planet(planeteer_name)
   i = 0
-  block_return_values = []
-  while i < collection.length
-    block_return_values << yield(collection[i])
+  planeteer_name_new = []
+  while i < planeteer_name.length
+    planeteer_name_new << yield(planeteer_name[i])
     i = i + 1
   end
 end
