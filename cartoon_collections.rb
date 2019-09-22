@@ -2,11 +2,11 @@ def roll_call_dwarves# code an argument here
   # Your code here
 end
 
-def summon_captain_planet(planeteer_name)
+def summon_captain_planet(array)
   i = 0
-  planeteer_name_new = []
-  while i < planeteer_name.length
-    planeteer_name_new << yield(planeteer_name[i])
+  array_new = []
+  while i < array.length
+    array_new << yield(array[i] )
     i = i + 1
   end
 end
