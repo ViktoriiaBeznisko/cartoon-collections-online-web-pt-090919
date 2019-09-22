@@ -17,6 +17,6 @@ end
 def find_the_cheese(bascet)
   cheese_types = ["cheddar", "gouda", "camembert"]
   bascet.find do |item|
-    cheese_types.include?(item)
+   
   end
 end
