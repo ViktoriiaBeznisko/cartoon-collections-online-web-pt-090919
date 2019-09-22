@@ -16,10 +16,7 @@ end
 
 def find_the_cheese(bascet)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_bascet.find do |cheese|
-    cheese_types.include(cheese)
+  bascet.find do |item|
+    cheese_types.include?(item)
   end
 end
-
-  snacks.find do |item|
-    cheese_types.include?(item)
